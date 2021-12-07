@@ -1,0 +1,127 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "首页",
+			"enablePullDownRefresh":true
+		}
+	} ,{
+		"path" : "pages/daka/daka",
+		"style" :                                                                                    
+		{
+			"navigationBarTitleText": "打卡",
+			"enablePullDownRefresh": true,
+			"app-plus":{
+				"scrollIndicator":"none"
+			}
+		}
+		
+}    ,{
+		"path" : "pages/jizhang/jizhang",
+		"style" :                                                                                    
+		{
+			"navigationBarTitleText": "记账",
+			"enablePullDownRefresh": false
+		}
+		
+	},{
+		"path" : "pages/user/user",
+		"style" :                                                                                    
+		{
+			"navigationBarTitleText": "我的",
+			"enablePullDownRefresh": false
+		}
+		
+	},{
+		"path" : "pages/login/login",
+		"style" :                                                                                    
+		{
+			"navigationBarTitleText": "登录",
+			"enablePullDownRefresh": false,
+			"app-plus":{
+				"titleNView":false
+			}
+		}
+		
+	},{
+		"path" : "pages/user/xtsz/xtsz",
+		"style" :                                                                                    
+		{
+			"navigationBarTitleText": "系统设置",
+			"enablePullDownRefresh": false
+		}
+		
+	}    ,{
+            "path" : "pages/user/info/info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/dkgzpz/dkgzpz",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "规则配置",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"scrollIndicator":"none"
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/user/dkgzpz/gzpz/gzpz",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "规则组配置",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView":false,
+					"scrollIndicator":"none"
+				}
+            }
+            
+        }
+    ],
+	"tabBar":{
+		"color":"#8a8a8a",
+		"selectedColor":"#3298ff",
+		"borderStyle":"black",
+		"backgroundColor":"#ffffff",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"text":"首页",
+				"iconPath":"/static/icon/2/Home.png",
+				"selectedIconPath":"/static/icon/2/Home.png"
+			},{
+				"pagePath":"pages/daka/daka",
+				"text":"打卡",
+				"iconPath":"/static/icon/2/daka.png",
+				"selectedIconPath":"/static/icon/2/daka.png"
+			},{
+				"pagePath":"pages/jizhang/jizhang",
+				"text":"记账",
+				"iconPath":"/static/icon/2/jizhang.png",
+				"selectedIconPath":"/static/icon/2/jizhang.png"
+			},{
+				"pagePath":"pages/user/user",
+				"text":"我的",
+				"iconPath":"/static/icon/2/user.png",
+				"selectedIconPath":"/static/icon/2/user.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

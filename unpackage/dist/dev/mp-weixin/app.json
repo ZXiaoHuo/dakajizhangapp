@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/daka/daka",
+    "pages/jizhang/jizhang",
+    "pages/user/user",
+    "pages/login/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#3298ff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/static/icon/2/Home.png",
+        "selectedIconPath": "/static/icon/2/Home.png"
+      },
+      {
+        "pagePath": "pages/daka/daka",
+        "text": "打卡",
+        "iconPath": "/static/icon/2/daka.png",
+        "selectedIconPath": "/static/icon/2/daka.png"
+      },
+      {
+        "pagePath": "pages/jizhang/jizhang",
+        "text": "记账",
+        "iconPath": "/static/icon/2/jizhang.png",
+        "selectedIconPath": "/static/icon/2/jizhang.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "/static/icon/2/user.png",
+        "selectedIconPath": "/static/icon/2/user.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
